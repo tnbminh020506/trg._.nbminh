@@ -1,0 +1,92 @@
+.a {
+    width: 60px;
+    height: 60px;
+    background-color:white;
+}
+.p {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 2;
+    cursor: pointer;
+}
+#text button{
+    position: fixed;
+    font-size: 100px;
+    color: white;
+    position: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#win {
+    display: none;
+}
+.square {
+    height: 45px;
+    width: 45px;
+    
+    background-color: black;
+}
+.square-rad {
+    height: 45px;
+    width: 45px;
+    
+    background-color: black;
+    border-radius: 10px;
+}
+.circle {
+    height: 45px;
+    width: 45px;
+    background-color: black;
+    
+    border-radius: 50%;
+}
+.card-up {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    background-color: black;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+        
+}
+.card-right {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    background-color: black;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    
+}
+.card-down {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    background-color: black;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    
+}
+.card-left {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    background-color: black;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    
+}
